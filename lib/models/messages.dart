@@ -1,0 +1,182 @@
+import 'package:flutter/material.dart';
+
+class Message {
+  final String image;
+  final String name;
+  final String message;
+  final String time;
+  final String numOfMsg;
+  final Color color;
+  final Color contColor;
+  final Icon icon;
+  final String category; // New property
+
+  Message({
+    required this.image,
+    required this.name,
+    required this.message,
+    required this.time,
+    required this.numOfMsg,
+    required this.color,
+    required this.contColor,
+    required this.icon,
+    required this.category, // Initialize the property
+  });
+}
+
+List<Message> messages = [
+  Message(
+    image: 'assets/images/scientist.png',
+    icon: const Icon(Icons.more_vert_rounded),
+    name: 'Flutter Team',
+    time: '11:40 am',
+    numOfMsg: '14',
+    color: Colors.greenAccent,
+    contColor: Colors.greenAccent,
+    message: 'Dart makes my heart flutter',
+    category: 'General', // Assign the chat category
+  ),
+  Message(
+    image: 'assets/images/medical-assistance-1.png',
+    icon: const Icon(Icons.more_vert_rounded),
+    name: 'Lisa Monroe',
+    time: '3:22 pm',
+    numOfMsg: '1',
+    color: Colors.greenAccent,
+    contColor: Colors.greenAccent,
+    message: 'Dart makes my heart flutter',
+    category: '',
+  ),
+  Message(
+    image: 'assets/images/doctor-3.png',
+    icon: const Icon(Icons.more_vert_rounded),
+    name: 'Tobi Lou',
+    time: '10:40 am',
+    numOfMsg: '4',
+    color: Colors.greenAccent,
+    contColor: Colors.greenAccent,
+    message: 'Dart makes my heart flutter',
+    category: '',
+  ),
+  Message(
+    image: 'assets/images/doctor-2.png',
+    icon: const Icon(Icons.more_vert_rounded),
+    name: 'Jeff',
+    time: '01:40 pa',
+    numOfMsg: '6',
+    color: Colors.yellowAccent,
+    contColor: Colors.greenAccent,
+    message: 'Dart makes my heart flutter',
+    category: '',
+  ),
+  Message(
+    image: 'assets/images/medical-assistance.png',
+    icon: const Icon(Icons.more_vert_rounded),
+    name: 'Maria Scholes',
+    time: '10:12 am',
+    numOfMsg: '2',
+    color: Colors.greenAccent,
+    contColor: Colors.greenAccent,
+    message: 'Dart makes my heart flutter',
+    category: 'Privet',
+  ),
+  Message(
+    image: 'assets/images/medical-assistance-4.png',
+    icon: const Icon(Icons.more_vert_rounded),
+    name: 'Paul Downey',
+    time: '11:08 am',
+    numOfMsg: '7',
+    color: Colors.yellowAccent,
+    contColor: Colors.greenAccent,
+    message: 'Dart makes my heart flutter',
+    category: '',
+  ),
+  Message(
+    image: 'assets/images/medical-assistance-1.png',
+    icon: const Icon(Icons.more_vert_rounded),
+    name: 'Lisa Monroe',
+    time: '09:40 am',
+    numOfMsg: '1',
+    color: Colors.greenAccent,
+    contColor: Colors.greenAccent,
+    message: 'Dart makes my heart flutter',
+    category: '',
+  ),
+  Message(
+    image: 'assets/images/scientist.png',
+    icon: const Icon(Icons.more_vert_rounded),
+    name: 'John Doe',
+    time: '2:30 pm',
+    numOfMsg: '9',
+    color: Colors.blueAccent,
+    contColor: Colors.greenAccent,
+    message: 'Hello, how are you?',
+    category: 'Sport',
+  ),
+  Message(
+    image: 'assets/images/doctor-3.png',
+    icon: const Icon(Icons.more_vert_rounded),
+    name: 'Jane Smith',
+    time: '3:45 pm',
+    numOfMsg: '3',
+    color: Colors.yellowAccent,
+    contColor: Colors.greenAccent,
+    message: 'I have a question for you.',
+    category: '',
+  ),
+  Message(
+    image: 'assets/images/scientist.png',
+    icon: const Icon(Icons.more_vert_rounded),
+    name: 'Flutter Team',
+    time: '11:40 am',
+    numOfMsg: '14',
+    color: Colors.greenAccent,
+    contColor: Colors.greenAccent,
+    message: 'Dart makes my heart flutter',
+    category: '',
+  ),
+  Message(
+    image: 'assets/images/doctor-3.png',
+    icon: const Icon(Icons.more_vert_rounded),
+    name: 'Tobi Lou',
+    time: '11:40 am',
+    numOfMsg: '4',
+    color: Colors.greenAccent,
+    contColor: Colors.greenAccent,
+    message: 'Dart makes my heart flutter',
+    category: '',
+  ),
+  Message(
+    image: 'assets/images/doctor-2.png',
+    icon: const Icon(Icons.more_vert_rounded),
+    name: 'Jeff',
+    time: '06:40 pm',
+    numOfMsg: '6',
+    color: Colors.yellowAccent,
+    contColor: Colors.greenAccent,
+    message: 'Dart makes my heart flutter',
+    category: 'Challenge',
+  ),
+  Message(
+    image: 'assets/images/medical-assistance-1.png',
+    icon: const Icon(Icons.more_vert_rounded),
+    name: 'Lisa Monroe',
+    time: '11:40 am',
+    numOfMsg: '1',
+    color: Colors.greenAccent,
+    contColor: Colors.greenAccent,
+    message: 'Dart makes my heart flutter',
+    category: '',
+  ),
+  Message(
+    image: 'assets/images/scientist.png',
+    icon: const Icon(Icons.more_vert_rounded),
+    name: 'John Doe',
+    time: '2:30 pm',
+    numOfMsg: '9',
+    color: Colors.blueAccent,
+    contColor: Colors.greenAccent,
+    message: 'Hello, how are you?',
+    category: '',
+  ),
+];
