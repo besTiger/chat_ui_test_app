@@ -5,8 +5,8 @@ andriytsvok@gmail.com
 
 #### Test Screen ####
 
-![Test Screen](assets/images/test_screen.jpg)
+![Test Screen](assets/test_screen.png)
 
 #### My Screen#
 
-![My Screen](assets/images/my_screen.jpg)
+![My Screen](assets/my_screen.png)

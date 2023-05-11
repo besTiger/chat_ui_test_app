@@ -33,3 +33,5 @@ flutter:
 
   assets:
    - assets/images/
+   - assets/test_screen.png
+   - assets/my_screen.png
