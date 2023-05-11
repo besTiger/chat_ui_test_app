@@ -1,16 +1,12 @@
-# chat_ui_test_app
+  !!! ПРИВІТ !!!
+На завдання витратив 6-7 годин.
+andriytsvok@gmail.com
+Граю футбол протягом 8 риків + люблю займатися спортом на турніках і брусах.
 
-A new Flutter project.
+#### Test Screen ####
 
-## Getting Started
+![Test Screen](assets/images/test_screen.jpg)
 
-This project is a starting point for a Flutter application.
+#### My Screen#
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![My Screen](assets/images/my_screen.jpg)

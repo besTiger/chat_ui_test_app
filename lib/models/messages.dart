@@ -62,7 +62,7 @@ List<Message> messages = [
     image: 'assets/images/doctor-2.png',
     icon: const Icon(Icons.more_vert_rounded),
     name: 'Jeff',
-    time: '01:40 pa',
+    time: '01:40 pm',
     numOfMsg: '6',
     color: Colors.yellowAccent,
     contColor: Colors.greenAccent,
