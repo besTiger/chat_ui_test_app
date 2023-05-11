@@ -4,7 +4,7 @@ import 'package:chat_ui_test_app/models/messages.dart';
 
 import 'chat_subtitle_widget.dart';
 import 'chat_title_widget.dart';
-import 'chat_trailing_widget.dart';
+import 'new_messages_badge_widget.dart';
 
 class ChatListItem extends StatelessWidget {
   final Message message;
@@ -19,11 +19,11 @@ class ChatListItem extends StatelessWidget {
       subtitle: ChatSubtitle(
         message: message.message,
         category: message.category,
-        contColor: message.contColor,
+         fontColor: message.fontColor,
       ),
-      trailing: ChatTrailing(
+      trailing: NewMessageBadge(
         time: message.time,
-        numOfMsg: message.numOfMsg,
+        numOfMsg: message.unreadMessagesCount,
       ),
     );
   }

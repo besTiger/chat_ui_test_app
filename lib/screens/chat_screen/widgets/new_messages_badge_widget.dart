@@ -1,11 +1,11 @@
 import 'package:chat_ui_test_app/screens/chat_screen/widgets/unread_message_badge_widget.dart';
 import 'package:flutter/material.dart';
 
-class ChatTrailing extends StatelessWidget {
+class NewMessageBadge extends StatelessWidget {
   final String time;
   final String numOfMsg;
 
-  const ChatTrailing({
+  const NewMessageBadge({
     Key? key,
     required this.time,
     required this.numOfMsg,
